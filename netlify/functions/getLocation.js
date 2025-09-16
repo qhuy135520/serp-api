@@ -8,6 +8,7 @@ exports.handler = async function (event, context) {
   const headers = {
     'Access-Control-Allow-Origin': '*', // cho phép gọi từ bất kỳ domain
     'Access-Control-Allow-Headers': 'Content-Type',
+    'Access-Control-Allow-Methods': 'GET, OPTIONS',
   }
 
   // Preflight request (OPTIONS)

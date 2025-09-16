@@ -1,0 +1,4 @@
+[build]
+  publish = "."            # folder upload (nếu chỉ có functions, dùng .)
+  functions = "functions"  # folder chứa serverless functions
+  command = ""             # build command để trống

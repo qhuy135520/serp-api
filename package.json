@@ -2,10 +2,10 @@
   "name": "serpapi-node",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "functions/getLocation.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "netlify dev"
   },
   "keywords": [],
   "author": "",
@@ -16,3 +16,4 @@
     "express": "^5.1.0"
   }
 }
+
